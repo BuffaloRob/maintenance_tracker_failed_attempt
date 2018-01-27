@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :maintenance_logs
+
   resources :maintenance_categories
 
   resources :maintenance_items
